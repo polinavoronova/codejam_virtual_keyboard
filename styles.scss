@@ -1,0 +1,49 @@
+.textarea {
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+    border: 1px solid purple;
+}
+
+.virtual-keyboard {
+    display: block;
+    width: 855px;
+    margin: auto;
+    margin-top: 3%;
+    background: #4a2f7b;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+    user-select: none;
+}
+
+.virtual-keyboard__keys {
+    padding: 6px;
+    text-align: center;
+} 
+
+.virtual-keyboard__key {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 4px;
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    padding: 0;
+}
+
+.virtual-keyboard__key--wide {
+    width: 107px;
+}
+
+.virtual-keyboard__key--extra-wide {
+    width: 388px; 
+}
